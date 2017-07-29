@@ -1,0 +1,221 @@
+body{
+	width:960px;
+	margin:auto;
+}
+
+#wrapper{
+	width:960px:
+	margin:0px;auto;
+}
+
+/*CSS for the header*/
+
+header{
+	background-color:#ffffff;
+	width:960px;
+	height:88px;
+	margin-top: 0px;
+	padding:0px;
+	position:fixed;
+}
+
+#nametag{
+	clear:both;
+	width:325px;
+	height: 88px;
+	float: left;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding-top:25px;
+	padding-right: 5px;
+	padding-left:2px;
+	font-size: 35px;
+	color:white;
+	margin-left:80px;
+	font-family:Georgia,Times,Times New Roman,serif;
+	font-weight: bold;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+.nav{
+	padding-top:25px;
+	overflow: auto;
+	float:right;
+}
+
+ul{
+	list-style-type: none;
+	float:left;
+	margin:15px;
+}
+
+ul li{
+	display:inline;
+	padding:10px;
+}
+
+li {
+	padding-top: 40px;
+	color:#777777;
+	font-family:'Arial','helvetica neue',helvetica, sans-serif;
+	font-size: 17px;
+	font-style: bold;
+}
+
+#nav-border{
+	border-left: 1px solid #777777;
+	border-right:1px solid #777777;
+}
+
+/*This is CSS for the main content*/
+
+#maincontent{
+	clear:both;
+	background-image: url(../images/cork.png);
+	min-height: 560px;
+	position: fixed;
+	float:left;
+	margin-top:95px;
+	width:960px;
+	border-top: #cccccc solid 2px;
+	border-bottom:#4aaaa5 solid 8px;
+}
+
+.information{
+	background-color: #ffffff;
+	width:650px;
+	border:#dddddd solid 1px;
+	float:left;
+	position:relative;
+	margin-left:30px;
+	margin-top: 40px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	padding-right:15px;
+	font-family:'Arial','helvetica neue',helvetica, sans-serif;
+	color:#777777;
+	overflow: hidden;
+}
+
+form{
+	padding-top: 15px;
+}
+
+.name{
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.email{
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.message{
+	margin-top:5px;
+}
+
+.submit{
+	margin-top: 10px;
+}
+
+#rotate90{
+
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width:190px;
+    height:165px;
+    position: relative;
+    margin-left:5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top:5px;
+    float: left;
+    border:0.5px solid #cccccc;
+}
+
+h1{
+	border-bottom:#cccccc solid 3px;
+	color:#4aaaa5;
+	font-size: 35px;
+	font-family:Georgia,Times,Times New Roman,serif;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+/*This is CSS for the connect section*/
+
+.connect{
+	background-color: #ffffff;
+	width:220px;
+	border:#dddddd solid 1px;
+	float:left;
+	position:relative;
+	font-family:'Arial','helvetica neue',helvetica, sans-serif;
+	color:#777777;
+	overflow: hidden;
+	text-align: center;
+	margin-top:40px;
+	margin-left:20px;
+	padding-bottom: 10px;
+	padding-left: 2px;
+	padding-right: 2px;
+
+}
+
+#github {
+	width:50px;
+	height:50px;
+	padding-top: 10px;
+}
+
+#linkedin {
+	width:50px;
+	height:50px;
+	padding-top: 10px;
+}
+
+
+#stack {
+	width:50px;
+	height:50px;
+	padding-top: 10px;
+}
+
+h2{
+	border-bottom:#cccccc solid 1px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	font-size: 25px;
+	color:#4aaaa5;
+	font-style: bold;
+	font-family:Georgia,Times,Times New Roman,serif;
+}
+
+
+
+/*This is the CSS for the footer*/
+
+footer{
+	width: 960px;
+	position:fixed;
+	background-color:#666666;
+	color:#ffffff;
+	bottom:0px;
+	text-align: center;
+	padding-top:30px;
+	padding-bottom: 25px;
+	font-family: 'Arial','helvetica neue',helvetica, sans-serif;
+
+}
+
